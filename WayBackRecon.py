@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """
-check_live_urls_resumable.py
-
 Fetch and save archived URLs from the Wayback CDX API for a domain,
 with built-in retry on timeouts, smaller chunks, and guaranteed
 output of all collected URLs even if an error occurs mid-fetch.
